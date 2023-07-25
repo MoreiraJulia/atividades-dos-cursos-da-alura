@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+/*TIPO DE REPETIÇÃO WHILE
+var multiplicador = 1;
+while(multiplicador <= 10){
+  mostra(7 * multiplicador);
+  multiplicador = multiplicador +1;
+}*/
+
+for(var multiplicador = 1; multiplicador <= 10; multiplicador++){
+  mostra(7 * multiplicador);
+}
+mostra("FIM");
+
+/*var total = 0;
+total++   ->    total = total + 1;
+Esse é a mesma coisa que esse 
+total++ significa que está pegando o valor que estava dentro da variavel total e somando + 1 */
+
+</script>
